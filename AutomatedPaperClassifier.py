@@ -588,7 +588,7 @@ def natural_sort_key(s):
     return parts
 
 def main():
-    base_dir = "/Users/yp1017/AI-Papers-Archive"
+    base_dir = "YOUR_ARCHIVE_DIR"
     dashboard = ApplePapersDashboard(base_dir)
     dashboard.run(debug=True)
 
